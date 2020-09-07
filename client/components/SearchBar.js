@@ -27,7 +27,7 @@ export class SearchBar extends Component {
 
   render() {
     console.log(' THISSTATE FILTER NOW', this.state.filter)
-    //console.log("THIS>PROPS>JOBS", this.props.jobs)
+
     return (
       <form onSubmit={this.handleSubmit}>
         <div id="search-jobs" className=" mt-0">
